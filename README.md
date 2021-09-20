@@ -34,5 +34,7 @@ Note: If necessary, we can add capacitors. Small capacitors (20pF - 400pF) are h
 ### The Overview of the PCB
 
 The PCB view of the above schematic is representing in the following picture below. You can download the Gerber File of the project from our GitHub Repo. Or, you can visit the project on EasyEDA platform for more details. The yellow color is for the Top-Silk Layer. Whereas the Green color is representing the bottom silk Layer. The Red Color is for the Top- Layer and the Blue color is representing the Bottom-Layer.
+
+
 ![Touch-Capacitive-Piano-PCB](https://user-images.githubusercontent.com/34489444/133959889-608b085b-15af-4c37-9a52-c65bb3647393.jpg)
 
