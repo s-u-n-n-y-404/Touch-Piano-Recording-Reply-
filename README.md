@@ -24,3 +24,15 @@ We are going to use the “CapacitveSensor” library to detect the change in th
 ### Circuit Diagram for the PCB Piano Using Arduino Nano
 
 The eight 1Mega Ohm Resistors are connected to the Arduino Nano's digital pin number 2 in the following circuit diagram. The digital pins 3 to 10 were further connected to the other connecting points of each resistor. On the diagram below, we have a slide switch labelled "RECODINGSWITCH". The Arduino Nano's digital pin 12 is connected to the slide switch's "EN" pin. The slide switch's "Vs" pin is connected to the Arduino Nano's "5V" pin. The sliding switch's "GND" pin is connected to the Arduino Nano's "Ground Pin". The BUZZER's Positive pin is connected to the Arduino Nano's "A4" pin. And the negative of the BUZZER is connected to the Ground pin of the Arduino Nano.
+
+![Arduino-based-Piano-Circuit](https://user-images.githubusercontent.com/34489444/133959824-07047020-e0bf-4110-add5-e6fff2a73da2.png)
+
+We've connected eight 10uF capacitors to each of the resistors. And the negative pin of each capacitor is connected to the Arduino Nano's ground pin. Then we have a Power section that provides a proper 6.6V to the Arduino Nano's "Vin" pin. The 18650 battery cell is linked to the 18650 battery charger module, and the charger module's output is linked to the DC to DC Voltage booster. The voltage booster's positive output pin (BOUT+) is connected to the Arduino Nano's "Vin" pin, and the voltage booster's negative output pin (BOUT-) is connected to the Arduino Nano's ground pin.
+
+Note: If necessary, we can add capacitors. Small capacitors (20pF - 400pF) are highly recommended for stabilizing detected data. However, ensure that the capacitors are grounded, as this reduces the parallel to the body resistance. However, in my case, I did not use the capacitors because it works fine for me without them. I mentioned the capacitors in the schematic above so you could easily add them during the practical implementation. The following capacitors' values must be between 20pF and 400pF, as specified in the “CapacitveSensor” library's documentation.
+
+### The Overview of the PCB
+
+The PCB view of the above schematic is representing in the following picture below. You can download the Gerber File of the project from our GitHub Repo. Or, you can visit the project on EasyEDA platform for more details. The yellow color is for the Top-Silk Layer. Whereas the Green color is representing the bottom silk Layer. The Red Color is for the Top- Layer and the Blue color is representing the Bottom-Layer.
+![Touch-Capacitive-Piano-PCB](https://user-images.githubusercontent.com/34489444/133959889-608b085b-15af-4c37-9a52-c65bb3647393.jpg)
+
