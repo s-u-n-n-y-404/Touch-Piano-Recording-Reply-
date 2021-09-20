@@ -38,3 +38,22 @@ The PCB view of the above schematic is representing in the following picture bel
 
 ![Touch-Capacitive-Piano-PCB](https://user-images.githubusercontent.com/34489444/133959889-608b085b-15af-4c37-9a52-c65bb3647393.jpg)
 
+The Top-Layer of the PCB:
+
+Now, let’s see every layer of the PCB one by one. The top-layer is shown in the image below. As you can see the Top-Layer is Red in color. I have designed each conductive plate in such a way that it looks like a piano. Every key of the piano is connected to each of the 1 megaohm resistors respectively.
+
+I used the Rectangular shape that can be found in the PCB Tool section on the EasyEDA that is circled in red color in the image below. Make sure that the width of the keys is large enough so that you can touch each of the keys with your finger. In my case, I managed to draw every key having 10mm or greater than 10mm width.
+
+ 
+### The Bottom-Layer of the PCB:
+
+At the bottom layer we have a complete copper layer that is used to connect all the grounds. You can use the “Solid Region” option in the “PCB Tools” on EasyEDA. This is called the “Copper Pouring” method. This step will convert the bottom layer as a common grounded layer. We have some other copper connections at this layer.
+
+### The Top-Silk-Layer of the PCB:
+
+The following image below is representing the Top-Silk-Layer of the PCB. We can design our PCBs by adding some silk layers or Non-copper layers. I marked the slide switch as “RECORD” and “PLAY”. So that we can understand which mode we are using. We have the footprint of the BUZZER at the top silk layer. The “XL6009E1” is the footprint of the DC to DC voltage booster module surrounded by the square area. We can add text and images by using the respective PCB Tools which are available on the EasyEDA.
+
+### The Bottom-Silk-Layer of the PCB:
+
+At the bottom silk layer of the PCB we havethe footprint of the Arduino Nano, eight 1Mega ohm resistors, eight capacitors, one 18650 batter holder or single cell and the charging module.
+
