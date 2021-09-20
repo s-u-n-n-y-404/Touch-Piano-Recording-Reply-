@@ -1,1 +1,4 @@
 # Project: Touch-Piano-Recording-Reply
+Hello! everyone, this tutorial will be extremely exciting for electronics makers because we will be designing our own touch-capacitive Piano with Arduino Nano. We will include a recording and replay feature on our Piano. So far, we've made a few piano projects using Arduino, but this one is quite different because we are going to use capacitive touch keys for our piano keys. So along with learning how to build a fun to play piano we will also explore how to design capacitive touch keys on PCB, as you can we have tried to make our keys looks as close an actual piano key. The PCB looks and works like a piano, thanks to its fabricator PCBWay, we will also explore how we designed and fabricated this board but before that, let's explore capacitive touch sensors and how it works.
+
+![Arduino-based-Piano](https://user-images.githubusercontent.com/34489444/133959384-0069761b-2b17-4b9f-99ea-2e8b53c0417f.gif)
